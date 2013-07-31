@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GasStation numOfPumps="4" pricePerLiter="7.82">
+	<MainFuelPool maxCapacity="500" currentCapacity="220" />
+	<CoffeeHouse numOfCashier="3" />
+	<Cars>
+		<Car>
+			<WantsCofee locationInCoffeeHouse="around" amountToPay="34" />
+			<WantsFuel numOfLiters="47" pumpNum="2" />
+		</Car>
+		<Car>
+			<WantsFuel numOfLiters="42" pumpNum="1" />
+		</Car>
+		<Car>
+			<WantsCofee locationInCoffeeHouse="inLine" amountToPay="52" />
+		</Car>
+		<Car>
+			<WantsCofee locationInCoffeeHouse="inLine" amountToPay="34" />
+			<WantsFuel numOfLiters="35" pumpNum="1" />
+		</Car>
+	</Cars>
+</GasStation>
